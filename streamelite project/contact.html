@@ -4,33 +4,28 @@
   <meta charset="UTF-8">
   <title>Contact StreamElite Support | 24/7 IPTV Help</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { colors: { darkBg: '#0B0B0B', primaryPurple: '#7C3AED', secondaryPurple: '#A855F7' } } } }</script>
   <style>body{background-color:#0B0B0B;color:#FFF;} .glassmorphism{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);backdrop-filter:blur(10px);}</style>
 </head>
-<body class="antialiased pt-28 pb-20">
-  <main class="max-w-xl mx-auto px-4">
-    <div class="text-center mb-10">
-      <h1 class="text-4xl font-extrabold mb-4">Contact Our Engineers</h1>
-      <p class="text-neutral-400 text-sm">Need a custom plan or technical setup help? Send us a message.</p>
-    </div>
+<body class="antialiased">
 
+  <!-- UNIVERSAL HEADER -->
+  <header class="fixed top-0 inset-x-0 z-40 py-4 px-4 bg-[#0B0B0B]/95 backdrop-blur-md border-b border-white/5"><nav class="max-w-7xl mx-auto flex items-center justify-between"><a href="/" class="text-xl font-bold tracking-tight text-white flex items-center gap-2"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primaryPurple to-secondaryPurple flex items-center justify-center shadow-lg"><svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>StreamElite</a><div class="hidden lg:flex items-center gap-6 text-xs font-bold tracking-wider uppercase text-neutral-400"><a href="/" class="hover:text-primaryPurple transition">Home</a><a href="/pricing.html" class="hover:text-primaryPurple transition">Pricing</a><a href="/channels.html" class="hover:text-primaryPurple transition">Channels</a><a href="/devices.html" class="hover:text-primaryPurple transition">Devices</a><a href="/tutorial.html" class="hover:text-primaryPurple transition">Setup</a><a href="/reseller.html" class="hover:text-primaryPurple transition">Reseller</a><a href="/blog/" class="hover:text-primaryPurple transition">Blog</a></div><div class="hidden lg:flex"><a href="/contact.html" class="text-xs font-bold text-white bg-white/10 px-5 py-2.5 rounded-xl hover:bg-white/20 transition uppercase tracking-wider">Contact</a></div></nav></header>
+
+  <main class="pt-32 pb-20 max-w-xl mx-auto px-4">
+    <div class="text-center mb-10"><h1 class="text-4xl font-extrabold mb-4">Contact Our Engineers</h1><p class="text-neutral-400 text-sm">Need a custom plan or technical setup help? Send us a message.</p></div>
     <div class="glassmorphism rounded-3xl p-8 border-t border-primaryPurple/40 shadow-2xl relative overflow-hidden">
       <div class="absolute top-0 right-0 w-32 h-32 bg-primaryPurple/10 rounded-full blur-2xl"></div>
       <form class="space-y-6 relative z-10" action="https://formspree.io/f/your-id-here" method="POST">
-        <div>
-          <label class="block text-[10px] font-bold uppercase tracking-widest text-neutral-400 mb-2">Name</label>
-          <input type="text" name="name" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple">
-        </div>
-        <div>
-          <label class="block text-[10px] font-bold uppercase tracking-widest text-neutral-400 mb-2">Email</label>
-          <input type="email" name="email" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple">
-        </div>
-        <div>
-          <label class="block text-[10px] font-bold uppercase tracking-widest text-neutral-400 mb-2">Message</label>
-          <textarea rows="4" name="msg" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple"></textarea>
-        </div>
-        <button type="submit" class="w-full py-4 bg-gradient-to-r from-purple-600 to-fuchsia-600 rounded-xl text-xs font-bold uppercase tracking-wider text-white hover:scale-[1.02] transition-transform shadow-lg shadow-purple-600/30">Send Message</button>
+        <div><label class="block text-[10px] font-bold uppercase tracking-widest text-neutral-400 mb-2">Name</label><input type="text" name="name" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple"></div>
+        <div><label class="block text-[10px] font-bold uppercase tracking-widest text-neutral-400 mb-2">Email</label><input type="email" name="email" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple"></div>
+        <div><label class="block text-[10px] font-bold uppercase tracking-widest text-neutral-400 mb-2">Message</label><textarea rows="4" name="msg" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple"></textarea></div>
+        <button type="submit" class="w-full py-4 bg-gradient-to-r from-primaryPurple to-secondaryPurple rounded-xl text-xs font-bold uppercase tracking-wider text-white hover:scale-[1.02] transition-transform shadow-lg shadow-primaryPurple/30">Send Message</button>
       </form>
     </div>
   </main>
+
+  <!-- UNIVERSAL FOOTER -->
+  <footer class="bg-[#050505] border-t border-white/5 pt-16 pb-24 px-4 relative z-10 text-xs text-neutral-400"><div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10"><div class="col-span-1 md:col-span-2"><span class="text-lg font-bold text-white flex items-center gap-2 mb-4">StreamElite <span class="text-primaryPurple">IPTV</span></span><p class="max-w-sm leading-relaxed font-light">Delivering the most stable, high-bitrate premium streaming infrastructure globally.</p></div><div><h4 class="text-white font-bold uppercase tracking-widest mb-4">Explore</h4><ul class="space-y-3 font-light"><li><a href="/pricing.html" class="hover:text-primaryPurple">Pricing & Plans</a></li><li><a href="/channels.html" class="hover:text-primaryPurple">Channel List</a></li><li><a href="/tutorial.html" class="hover:text-primaryPurple">Setup Guides</a></li></ul></div><div><h4 class="text-white font-bold uppercase tracking-widest mb-4">Support</h4><ul class="space-y-3 font-light"><li><a href="/faq.html" class="hover:text-primaryPurple">FAQ</a></li><li><a href="/contact.html" class="hover:text-primaryPurple">Contact Us</a></li><li><a href="/legal/privacy-policy.html" class="hover:text-primaryPurple">Privacy Policy</a></li></ul></div></div></footer>
 </body>
 </html>

@@ -2,61 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Claim Your 24-Hour Free IPTV Trial | StreamElite</title>
-  <meta name="description" content="Test our premium IPTV service risk-free for 24 hours. Full access to 15K+ channels, sports, and movies in 4K. No credit card required.">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config = { theme: { extend: { colors: { primaryPurple: '#7C3AED', secondaryPurple: '#A855F7' } } } }</script>
+  <script>tailwind.config = { theme: { extend: { colors: { darkBg: '#0B0B0B', primaryPurple: '#7C3AED', secondaryPurple: '#A855F7' } } } }</script>
   <style>body{background-color:#0B0B0B;color:#FFF;} .glassmorphism{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.05);backdrop-filter:blur(16px);}</style>
 </head>
-<body class="antialiased flex items-center justify-center min-h-screen relative overflow-hidden">
-  
-  <!-- Background Glow -->
-  <div class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-primaryPurple/20 rounded-full blur-[120px]"></div>
-  
-  <div class="w-full max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center relative z-10 py-12">
-    
-    <!-- Value Proposition Side -->
+<body class="antialiased flex flex-col min-h-screen">
+
+  <!-- UNIVERSAL HEADER -->
+  <header class="fixed top-0 inset-x-0 z-40 py-4 px-4 bg-[#0B0B0B]/95 backdrop-blur-md border-b border-white/5"><nav class="max-w-7xl mx-auto flex items-center justify-between"><a href="/" class="text-xl font-bold tracking-tight text-white flex items-center gap-2"><div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primaryPurple to-secondaryPurple flex items-center justify-center shadow-lg"><svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>StreamElite</a><div class="hidden lg:flex items-center gap-6 text-xs font-bold tracking-wider uppercase text-neutral-400"><a href="/" class="hover:text-primaryPurple transition">Home</a><a href="/pricing.html" class="hover:text-primaryPurple transition">Pricing</a><a href="/channels.html" class="hover:text-primaryPurple transition">Channels</a><a href="/devices.html" class="hover:text-primaryPurple transition">Devices</a><a href="/tutorial.html" class="hover:text-primaryPurple transition">Setup</a><a href="/reseller.html" class="hover:text-primaryPurple transition">Reseller</a><a href="/blog/" class="hover:text-primaryPurple transition">Blog</a></div><div class="hidden lg:flex"><a href="/contact.html" class="text-xs font-bold text-white bg-white/10 px-5 py-2.5 rounded-xl hover:bg-white/20 transition uppercase tracking-wider">Contact</a></div></nav></header>
+
+  <main class="flex-grow pt-32 pb-20 w-full max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center relative">
+    <div class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-primaryPurple/20 rounded-full blur-[120px] -z-10"></div>
     <div>
-      <a href="/" class="text-xl font-bold mb-8 block">StreamElite <span class="text-primaryPurple">IPTV</span></a>
       <h1 class="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">Test The Ultimate <br>Streaming Experience. <br><span class="text-primaryPurple">Zero Risk.</span></h1>
       <ul class="space-y-4 text-sm text-neutral-300 font-light mb-8">
         <li class="flex items-center gap-3">✅ <span>Full access to 15,000+ Live Channels</span></li>
         <li class="flex items-center gap-3">✅ <span>All Premium Sports & PPV Events</span></li>
-        <li class="flex items-center gap-3">✅ <span>50,000+ Movies & Series on Demand</span></li>
-        <li class="flex items-center gap-3">✅ <span>Instant Activation via Email/WhatsApp</span></li>
+        <li class="flex items-center gap-3">✅ <span>Instant Activation via WhatsApp</span></li>
         <li class="flex items-center gap-3">✅ <span>No Credit Card Required</span></li>
       </ul>
     </div>
-
-    <!-- The Form Card -->
     <div class="glassmorphism rounded-3xl p-8 shadow-2xl border-t border-primaryPurple/30">
       <h3 class="text-2xl font-bold mb-2">Request 24h Free Trial</h3>
-      <p class="text-xs text-neutral-400 mb-6">Fill the form below. Our automated system will send your credentials instantly.</p>
-      
+      <p class="text-xs text-neutral-400 mb-6">Our automated system will send your credentials instantly.</p>
       <form action="https://formspree.io/f/your-id-here" method="POST" class="space-y-4">
-        <div>
-          <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1.5">Your Full Name</label>
-          <input type="text" name="name" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:border-primaryPurple focus:outline-none">
-        </div>
-        <div>
-          <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1.5">WhatsApp Number (For instant delivery)</label>
-          <input type="tel" name="phone" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:border-primaryPurple focus:outline-none">
-        </div>
-        <div>
-          <label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1.5">Which device will you use?</label>
-          <select name="device" class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:border-primaryPurple focus:outline-none appearance-none">
-            <option>Amazon Firestick / Fire TV</option>
-            <option>Smart TV (Samsung/LG)</option>
-            <option>Android TV Box / Mobile</option>
-            <option>Apple TV / iOS</option>
-            <option>Windows / Mac PC</option>
-          </select>
-        </div>
-        <button type="submit" class="w-full py-4 mt-2 bg-gradient-to-r from-primaryPurple to-secondaryPurple rounded-xl text-xs font-bold uppercase tracking-wider shadow-lg shadow-primaryPurple/30 hover:scale-[1.02] transition-transform">Send My Free Trial Details</button>
+        <div><label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1.5">Full Name</label><input type="text" name="name" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:border-primaryPurple focus:outline-none"></div>
+        <div><label class="block text-[10px] font-bold uppercase tracking-wider text-neutral-400 mb-1.5">WhatsApp Number</label><input type="tel" name="phone" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:border-primaryPurple focus:outline-none"></div>
+        <button type="submit" class="w-full py-4 mt-2 bg-gradient-to-r from-primaryPurple to-secondaryPurple rounded-xl text-xs font-bold uppercase tracking-wider shadow-lg shadow-primaryPurple/30 hover:scale-[1.02] transition-transform">Get Free Trial</button>
       </form>
     </div>
+  </main>
 
-  </div>
+  <!-- UNIVERSAL FOOTER -->
+  <footer class="bg-[#050505] border-t border-white/5 pt-16 pb-24 px-4 relative z-10 text-xs text-neutral-400"><div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10"><div class="col-span-1 md:col-span-2"><span class="text-lg font-bold text-white flex items-center gap-2 mb-4">StreamElite <span class="text-primaryPurple">IPTV</span></span><p class="max-w-sm leading-relaxed font-light">Delivering the most stable, high-bitrate premium streaming infrastructure globally.</p></div><div><h4 class="text-white font-bold uppercase tracking-widest mb-4">Explore</h4><ul class="space-y-3 font-light"><li><a href="/pricing.html" class="hover:text-primaryPurple">Pricing & Plans</a></li><li><a href="/channels.html" class="hover:text-primaryPurple">Channel List</a></li><li><a href="/tutorial.html" class="hover:text-primaryPurple">Setup Guides</a></li></ul></div><div><h4 class="text-white font-bold uppercase tracking-widest mb-4">Support</h4><ul class="space-y-3 font-light"><li><a href="/faq.html" class="hover:text-primaryPurple">FAQ</a></li><li><a href="/contact.html" class="hover:text-primaryPurple">Contact Us</a></li><li><a href="/legal/privacy-policy.html" class="hover:text-primaryPurple">Privacy Policy</a></li></ul></div></div></footer>
 </body>
 </html>
