@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPTV Setup Tutorials & Installation Guides | StreamElite</title>
+  <meta name="description" content="Step-by-step IPTV installation guides for Amazon Firestick, Android TV, Samsung, LG Smart TVs, Apple, and Windows devices.">
+  <link rel="canonical" href="https://14nov.xyz/tutorial.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { colors: { darkBg: '#0B0B0B', primaryPurple: '#7C3AED', secondaryPurple: '#A855F7' } } } }</script>
+  <style>
+    body { background-color: #0B0B0B; color: #FFFFFF; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    .glassmorphism { background: rgba(255, 255, 255, 0.02); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.06); }
+    .glowing-card { background: #121212; border: 1px solid rgba(255, 255, 255, 0.05); transition: all 0.4s ease; }
+    .glowing-card:hover { border-color: #7C3AED; box-shadow: 0 10px 30px rgba(124, 58, 237, 0.25); transform: translateY(-4px); }
+    .btn-glow { box-shadow: 0 0 15px rgba(124, 58, 237, 0.4); transition: all 0.3s ease; }
+    .btn-glow:hover { box-shadow: 0 0 25px rgba(124, 58, 237, 0.8); }
+    .whatsapp-glow { box-shadow: 0 0 15px rgba(16, 185, 129, 0.4); transition: all 0.3s ease; }
+    .whatsapp-glow:hover { box-shadow: 0 0 25px rgba(16, 185, 129, 0.8); }
+    .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease; }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="antialiased">
+
+  <!-- Floating Buttons -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3 items-end">
+    <a href="https://wa.me/447900577564" target="_blank" class="whatsapp-glow bg-emerald-500 text-white px-5 py-3 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">Live Chat</a>
+    <button onclick="openTrialModal()" class="btn-glow bg-gradient-to-r from-primaryPurple to-secondaryPurple text-white px-6 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">Free Trial</button>
+  </div>
+
+  <header class="fixed top-0 inset-x-0 z-40 py-4 px-4 bg-darkBg/90 backdrop-blur-md border-b border-white/5">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between">
+      <a href="/" class="text-xl font-bold text-white flex items-center gap-2">StreamElite <span class="text-primaryPurple">IPTV</span></a>
+      <div class="hidden lg:flex items-center gap-6 text-xs font-semibold uppercase text-neutral-400">
+        <a href="/" class="hover:text-white transition">Home</a>
+        <a href="/pricing.html" class="hover:text-white transition">Pricing</a>
+        <a href="/tutorial.html" class="text-white">Setup</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-32 pb-20">
+    <section class="text-center px-4 max-w-3xl mx-auto mb-16 reveal">
+      <h1 class="text-4xl sm:text-5xl font-extrabold mb-6">Installation Guides</h1>
+      <p class="text-neutral-400 text-sm">Follow these simple steps to configure your premium IPTV subscription on your preferred device.</p>
+    </section>
+
+    <div class="max-w-5xl mx-auto px-4 space-y-16">
+      
+      <!-- Firestick Section -->
+      <section id="firestick" class="reveal">
+        <div class="flex items-center gap-4 mb-8 border-b border-white/10 pb-4">
+          <div class="w-12 h-12 rounded-xl bg-primaryPurple/20 flex items-center justify-center text-2xl">🔥</div>
+          <h2 class="text-2xl font-bold">Amazon Firestick / Fire TV</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="p-6 glassmorphism rounded-2xl glowing-card">
+            <span class="text-primaryPurple font-black text-xl mb-2 block">01</span>
+            <h3 class="font-bold text-sm mb-2">Enable Unknown Sources</h3>
+            <p class="text-xs text-neutral-400">Go to Settings > My Fire TV > Developer Options. Turn ON 'Apps from Unknown Sources'.</p>
+          </div>
+          <div class="p-6 glassmorphism rounded-2xl glowing-card">
+            <span class="text-primaryPurple font-black text-xl mb-2 block">02</span>
+            <h3 class="font-bold text-sm mb-2">Install Downloader</h3>
+            <p class="text-xs text-neutral-400">Search for 'Downloader' in the Amazon App Store. Install and open it.</p>
+          </div>
+          <div class="p-6 glassmorphism rounded-2xl glowing-card">
+            <span class="text-primaryPurple font-black text-xl mb-2 block">03</span>
+            <h3 class="font-bold text-sm mb-2">Download IPTV Smarters Pro</h3>
+            <p class="text-xs text-neutral-400">Enter the URL provided in your subscription email into the Downloader app and install the APK.</p>
+          </div>
+          <div class="p-6 glassmorphism rounded-2xl glowing-card">
+            <span class="text-primaryPurple font-black text-xl mb-2 block">04</span>
+            <h3 class="font-bold text-sm mb-2">Login & Stream</h3>
+            <p class="text-xs text-neutral-400">Open Smarters Pro, select 'Login with Xtream Codes API', and enter your Username, Password, and Server URL.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Smart TV Section -->
+      <section id="smarttv" class="reveal">
+        <div class="flex items-center gap-4 mb-8 border-b border-white/10 pb-4">
+          <div class="w-12 h-12 rounded-xl bg-primaryPurple/20 flex items-center justify-center text-2xl">📺</div>
+          <h2 class="text-2xl font-bold">Samsung & LG Smart TV</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="p-6 glassmorphism rounded-2xl glowing-card">
+            <span class="text-primaryPurple font-black text-xl mb-2 block">01</span>
+            <h3 class="font-bold text-sm mb-2">Install App</h3>
+            <p class="text-xs text-neutral-400">Open your TV's App Store and search for 'IBO Player' or 'Smart IPTV (SIPTV)'. Install the app.</p>
+          </div>
+          <div class="p-6 glassmorphism rounded-2xl glowing-card">
+            <span class="text-primaryPurple font-black text-xl mb-2 block">02</span>
+            <h3 class="font-bold text-sm mb-2">Get Device ID</h3>
+            <p class="text-xs text-neutral-400">Open the app. The screen will display your TV's unique MAC Address or Device ID. Note this down.</p>
+          </div>
+          <div class="p-6 glassmorphism rounded-2xl glowing-card">
+            <span class="text-primaryPurple font-black text-xl mb-2 block">03</span>
+            <h3 class="font-bold text-sm mb-2">Send to Support</h3>
+            <p class="text-xs text-neutral-400">Provide your MAC Address to our WhatsApp support team or use our portal to upload your M3U link automatically.</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+  <div id="trial-modal" class="hidden"></div>
+  <script src="/assets/js/core-engine.js"></script>
+</body>
+</html>

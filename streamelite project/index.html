@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium IPTV Subscription Service | 4K Live TV & Sports Streaming</title>
+  <meta name="description" content="Experience the best IPTV service with 15,000+ live channels, premium sports streaming, and 4K movies. Compatible with Firestick, Android TV, and Smart TVs. Start your free trial today.">
+  <meta name="keywords" content="Premium IPTV, IPTV Subscription, Buy IPTV, Best IPTV Service, 4K Streaming, IPTV for Firestick, IPTV for Android TV, Live TV Streaming, Sports Streaming, Movies and TV Shows">
+  <link rel="canonical" href="https://14nov.xyz/">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph & Twitter Social Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://14nov.xyz/">
+  <meta property="og:title" content="Premium IPTV Subscription Service | 4K Live TV Streaming">
+  <meta property="og:description" content="Stream 15,000+ Live Channels and 50,000+ VODs in Ultra HD 4K quality with anti-buffering technology.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { darkBg: '#0B0B0B', primaryPurple: '#7C3AED', secondaryPurple: '#A855F7', charcoalCard: '#121212' }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Premium UI/UX Animation & Core Styles -->
+  <style>
+    body { background-color: #0B0B0B; color: #FFFFFF; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    .glassmorphism { background: rgba(255, 255, 255, 0.02); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.06); }
+    
+    /* Lift & Glow Card Animations */
+    .glowing-card { background: #121212; border: 1px solid rgba(255, 255, 255, 0.05); transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
+    .glowing-card:hover { border-color: #7C3AED; transform: translateY(-8px); box-shadow: 0 10px 30px rgba(124, 58, 237, 0.25); }
+    
+    /* Hover Glow Buttons */
+    .btn-glow { box-shadow: 0 0 15px rgba(124, 58, 237, 0.4); transition: box-shadow 0.3s ease, transform 0.2s ease; }
+    .btn-glow:hover { box-shadow: 0 0 25px rgba(124, 58, 237, 0.8); transform: translateY(-2px); }
+    .whatsapp-glow { box-shadow: 0 0 15px rgba(16, 185, 129, 0.4); transition: box-shadow 0.3s ease, transform 0.2s ease; }
+    .whatsapp-glow:hover { box-shadow: 0 0 25px rgba(16, 185, 129, 0.8); transform: translateY(-2px); }
+
+    /* Scroll Reveal Engine Classes */
+    .reveal { opacity: 0; transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    .reveal.slide-up { transform: translateY(40px); }
+    .reveal.slide-left { transform: translateX(40px); }
+    .reveal.slide-right { transform: translateX(-40px); }
+    .reveal.fade-in { transform: scale(0.95); }
+    .reveal.active { opacity: 1; transform: translate(0) scale(1); }
+
+    /* Infinite Auto-Scrolling Marquee */
+    @keyframes scroll-left { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .marquee-container { overflow: hidden; white-space: nowrap; width: 100%; position: relative; }
+    .marquee-track { display: inline-flex; width: max-content; animation: scroll-left 35s linear infinite; }
+    .marquee-container:hover .marquee-track { animation-play-state: paused; }
+    
+    /* Carousel Hover Zoom */
+    .hover-zoom { overflow: hidden; }
+    .hover-zoom img { transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    .hover-zoom:hover img { transform: scale(1.1); }
+    
+    /* Hide Scrollbar for Carousels but keep functionality */
+    .hide-scroll::-webkit-scrollbar { display: none; }
+    .hide-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+
+  <!-- Multi-Entity Structured Data Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://14nov.xyz/#website",
+        "url": "https://14nov.xyz/",
+        "name": "StreamElite IPTV",
+        "description": "Premium 4K IPTV Subscription Service Platform"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://14nov.xyz/#organization",
+        "name": "StreamElite IPTV",
+        "url": "https://14nov.xyz/",
+        "logo": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=200&q=80"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [{
+          "@type": "Question",
+          "name": "Do you offer a Free Trial?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes, we offer a 24-hour premium free trial with full access to 4K streams." }
+        }]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="antialiased">
+
+  <!-- Floating CRO Action Buttons (Persistent) -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3 items-end">
+    <a href="https://wa.me/447900577564" target="_blank" rel="noopener noreferrer" class="whatsapp-glow bg-emerald-500 text-white px-5 py-3 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2" aria-label="Contact us on WhatsApp">
+      <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+      <span>Live Chat</span>
+    </a>
+    <button onclick="openTrialModal()" class="btn-glow bg-gradient-to-r from-primaryPurple to-secondaryPurple text-white px-6 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      Get Started
+    </button>
+  </div>
+
+  <!-- Universal Header Layout -->
+  <header class="fixed top-0 inset-x-0 z-40 py-4 px-4 transition-transform duration-300" id="main-header">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between glassmorphism rounded-2xl px-6 py-4">
+      <a href="/" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primaryPurple to-secondaryPurple flex items-center justify-center shadow-lg shadow-primaryPurple/30">
+          <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        StreamElite
+      </a>
+      <div class="hidden lg:flex items-center gap-6 text-xs font-semibold tracking-wider uppercase text-neutral-400">
+        <a href="/" class="text-white">Home</a>
+        <a href="/pricing.html" class="hover:text-primaryPurple transition-colors">Pricing</a>
+        <a href="/channels.html" class="hover:text-primaryPurple transition-colors">Channels</a>
+        <a href="/devices.html" class="hover:text-primaryPurple transition-colors">Devices</a>
+        <a href="/tutorial.html" class="hover:text-primaryPurple transition-colors">Setup</a>
+        <a href="/reseller.html" class="hover:text-primaryPurple transition-colors">Reseller</a>
+        <a href="/blog/" class="hover:text-primaryPurple transition-colors">Blog</a>
+      </div>
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="/contact.html" class="text-xs font-semibold text-neutral-300 hover:text-white uppercase tracking-wider">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Premium Hero Section -->
+    <section class="relative pt-48 pb-20 text-center px-4 overflow-hidden flex flex-col items-center justify-center min-h-[90vh]">
+      <!-- Animated Background Blobs -->
+      <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primaryPurple/20 rounded-full blur-[100px] animate-pulse"></div>
+      <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondaryPurple/20 rounded-full blur-[100px] animate-pulse" style="animation-delay: 2s;"></div>
+      
+      <div class="max-w-4xl mx-auto relative z-10 reveal slide-up">
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glassmorphism border border-primaryPurple/30 mb-8">
+          <span class="w-2 h-2 rounded-full bg-green-400 animate-ping"></span>
+          <span class="text-[10px] font-bold uppercase tracking-widest text-purple-200">The #1 Premium Streaming Platform</span>
+        </div>
+        
+        <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight mb-6 leading-[1.1] bg-gradient-to-b from-white via-neutral-100 to-neutral-400 bg-clip-text text-transparent">
+          Unleash Ultimate <br> Entertainment in <span class="text-transparent bg-clip-text bg-gradient-to-r from-primaryPurple to-secondaryPurple">4K Ultra HD</span>
+        </h1>
+        
+        <p class="text-neutral-400 text-lg md:text-xl mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+          Cut the cord with confidence. Access 15,000+ premium live channels, exclusive sports streams, and a massive 50,000+ VOD library. Zero buffering. Total freedom.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <button onclick="openTrialModal()" class="btn-glow w-full sm:w-auto px-8 py-4 rounded-xl text-sm font-bold uppercase tracking-wider bg-gradient-to-r from-primaryPurple to-secondaryPurple text-white">Start Free Trial</button>
+          <a href="#pricing" class="w-full sm:w-auto px-8 py-4 rounded-xl text-sm font-bold uppercase tracking-wider glassmorphism text-white hover:bg-white/10 transition">View IPTV Plans</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Smooth Statistics Counter -->
+    <section class="py-12 px-4 max-w-6xl mx-auto reveal fade-in relative z-10 -mt-10">
+      <div class="glassmorphism rounded-3xl p-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center shadow-2xl border-t border-white/10">
+        <div><div class="text-4xl font-extrabold text-white mb-1 counter" data-target="15000">0</div><div class="text-[10px] text-primaryPurple font-bold uppercase tracking-widest">Live TV Channels</div></div>
+        <div><div class="text-4xl font-extrabold text-white mb-1 counter" data-target="50000">0</div><div class="text-[10px] text-primaryPurple font-bold uppercase tracking-widest">Movies & VODs</div></div>
+        <div><div class="text-4xl font-extrabold text-white mb-1 counter" data-target="99">0</div><div class="text-[10px] text-primaryPurple font-bold uppercase tracking-widest">Uptime Percentage</div></div>
+        <div><div class="text-4xl font-extrabold text-white mb-1 counter" data-target="24">0</div><div class="text-[10px] text-primaryPurple font-bold uppercase tracking-widest">Support Access</div></div>
+      </div>
+    </section>
+
+    <!-- Infinite Channel Logo Slider (Pure CSS Marquee) -->
+    <section class="py-16 overflow-hidden reveal slide-up">
+      <div class="text-center mb-8"><h3 class="text-sm font-bold uppercase tracking-widest text-neutral-500">Premium Networks Included</h3></div>
+      <div class="marquee-container">
+        <div class="marquee-track gap-12 items-center text-2xl font-black tracking-tighter text-neutral-600 uppercase">
+          <!-- Duplicated for infinite smooth loop -->
+          <div>SKY SPORTS</div><div>HBO MAX</div><div>TNT SPORTS</div><div>ESPN+</div><div>DISCOVERY</div><div>BEIN SPORTS</div><div>FOX NEWS</div><div>BBC ONE</div><div>CANAL+</div>
+          <div>SKY SPORTS</div><div>HBO MAX</div><div>TNT SPORTS</div><div>ESPN+</div><div>DISCOVERY</div><div>BEIN SPORTS</div><div>FOX NEWS</div><div>BBC ONE</div><div>CANAL+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Premium Features / Why Choose Us -->
+    <section class="py-24 px-4 max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-16 reveal slide-up">
+        <h2 class="text-3xl md:text-5xl font-extrabold mb-4">Why Choose StreamElite?</h2>
+        <p class="text-neutral-400 text-sm">We provide an enterprise-grade streaming infrastructure optimized for flawless 4K playback and instantaneous channel switching.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-8 rounded-3xl glowing-card reveal slide-up" style="transition-delay: 100ms;">
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-primaryPurple/20 to-secondaryPurple/20 border border-primaryPurple/30 flex items-center justify-center text-primaryPurple mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-white">Instant Activation</h3>
+          <p class="text-neutral-400 text-sm leading-relaxed font-light">Your IPTV subscription credentials are automatically generated and emailed to you within 60 seconds of checkout.</p>
+        </div>
+        <div class="p-8 rounded-3xl glowing-card reveal slide-up" style="transition-delay: 200ms;">
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-primaryPurple/20 to-secondaryPurple/20 border border-primaryPurple/30 flex items-center justify-center text-primaryPurple mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-white">Anti-Buffering Tech</h3>
+          <p class="text-neutral-400 text-sm leading-relaxed font-light">Our globally distributed CDN and load balancers ensure uninterrupted streams during high-traffic UFC and Premier League events.</p>
+        </div>
+        <div class="p-8 rounded-3xl glowing-card reveal slide-up" style="transition-delay: 300ms;">
+          <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-primaryPurple/20 to-secondaryPurple/20 border border-primaryPurple/30 flex items-center justify-center text-primaryPurple mb-6">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/></svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3 text-white">Universal Compatibility</h3>
+          <p class="text-neutral-400 text-sm leading-relaxed font-light">Seamlessly install our service via IPTV Smarters, TiviMate, or IBO Player on Firestick, Android TV, Samsung, LG, and Apple devices.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vanilla JS Movie Poster Carousel -->
+    <section class="py-16 px-4 overflow-hidden reveal slide-left">
+      <div class="max-w-7xl mx-auto mb-8 flex justify-between items-end">
+        <div>
+          <h2 class="text-2xl md:text-4xl font-extrabold mb-2">Latest 4K Cinema VODs</h2>
+          <p class="text-sm text-neutral-400">Our movie library is updated daily with full Ultra HD releases.</p>
+        </div>
+        <div class="hidden sm:flex gap-2">
+          <button id="movie-prev" class="w-10 h-10 rounded-full glassmorphism flex items-center justify-center hover:bg-white/10 transition"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg></button>
+          <button id="movie-next" class="w-10 h-10 rounded-full glassmorphism flex items-center justify-center hover:bg-white/10 transition"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <div class="max-w-7xl mx-auto hide-scroll overflow-x-auto snap-x snap-mandatory" id="movie-carousel-container">
+        <div class="flex gap-6 w-max pb-8" id="movie-track">
+          <!-- JS will clone these for infinite illusion or handle scroll -->
+          <div class="w-48 sm:w-64 aspect-[2/3] rounded-2xl hover-zoom glowing-card relative snap-start shrink-0">
+            <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=400&q=80" alt="Action Movie IPTV Poster" class="w-full h-full object-cover opacity-80" loading="lazy">
+            <div class="absolute top-3 left-3 bg-primaryPurple text-[10px] font-bold px-2 py-1 rounded">4K UHD</div>
+          </div>
+          <div class="w-48 sm:w-64 aspect-[2/3] rounded-2xl hover-zoom glowing-card relative snap-start shrink-0">
+            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=400&q=80" alt="Drama Series IPTV Streaming" class="w-full h-full object-cover opacity-80" loading="lazy">
+            <div class="absolute top-3 left-3 bg-primaryPurple text-[10px] font-bold px-2 py-1 rounded">NEW EPISODES</div>
+          </div>
+          <div class="w-48 sm:w-64 aspect-[2/3] rounded-2xl hover-zoom glowing-card relative snap-start shrink-0">
+            <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=400&q=80" alt="Documentary VOD Streaming IPTV" class="w-full h-full object-cover opacity-80" loading="lazy">
+          </div>
+          <div class="w-48 sm:w-64 aspect-[2/3] rounded-2xl hover-zoom glowing-card relative snap-start shrink-0">
+            <img src="https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=400&q=80" alt="Romance Box Office Release" class="w-full h-full object-cover opacity-80" loading="lazy">
+          </div>
+          <div class="w-48 sm:w-64 aspect-[2/3] rounded-2xl hover-zoom glowing-card relative snap-start shrink-0">
+            <img src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?auto=format&fit=crop&w=400&q=80" alt="Sci-Fi Streaming 4k Resolution" class="w-full h-full object-cover opacity-80" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Preview (CRO Optimized) -->
+    <section id="pricing" class="py-24 bg-[#090909] border-y border-white/5 px-4 reveal slide-up">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <h2 class="text-3xl md:text-5xl font-extrabold mb-4">Choose Your Premium IPTV Plan</h2>
+          <p class="text-neutral-400 text-sm">Transparent pricing. No hidden installation fees. Instant delivery.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch max-w-5xl mx-auto">
+          <!-- 1 Month -->
+          <div class="p-8 rounded-3xl glowing-card flex flex-col justify-between">
+            <div>
+              <span class="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2">1 Month Access</span>
+              <div class="text-4xl font-black mb-6 text-white flex items-baseline gap-1">£12 <span class="text-xs font-normal text-neutral-500">/mo</span></div>
+              <ul class="space-y-4 text-xs text-neutral-300 mb-8 font-medium">
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 15K+ Live Channels</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 50K+ VOD Library</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 4K & FHD Quality</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Anti-Buffer Tech</li>
+              </ul>
+            </div>
+            <button onclick="openPurchaseModal('1 Month Premium', '£12')" class="w-full py-4 glassmorphism text-white rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-white/10 transition">Buy 1 Month</button>
+          </div>
+          
+          <!-- 12 Months Bestseller -->
+          <div class="p-8 rounded-3xl glowing-card flex flex-col justify-between border-2 border-primaryPurple relative transform scale-105 shadow-2xl z-10">
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primaryPurple to-secondaryPurple px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest text-white shadow-lg">Most Popular</div>
+            <div>
+              <span class="block text-[10px] font-bold text-primaryPurple uppercase tracking-widest mb-2 mt-2">12 Months Premium</span>
+              <div class="text-4xl font-black mb-6 text-white flex items-baseline gap-1">£50 <span class="text-xs font-normal text-neutral-500">/yr</span></div>
+              <ul class="space-y-4 text-xs text-white mb-8 font-medium">
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Everything in 1 Month</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Catch-Up TV Included</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Multi-Device Support</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Priority VIP Support</li>
+              </ul>
+            </div>
+            <button onclick="openPurchaseModal('12 Months Premium', '£50')" class="btn-glow w-full py-4 bg-gradient-to-r from-primaryPurple to-secondaryPurple text-white rounded-xl text-xs font-bold uppercase tracking-wider transition">Buy 12 Months</button>
+          </div>
+          
+          <!-- 6 Months -->
+          <div class="p-8 rounded-3xl glowing-card flex flex-col justify-between">
+            <div>
+              <span class="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2">6 Months Access</span>
+              <div class="text-4xl font-black mb-6 text-white flex items-baseline gap-1">£35 <span class="text-xs font-normal text-neutral-500">/6mo</span></div>
+              <ul class="space-y-4 text-xs text-neutral-300 mb-8 font-medium">
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 15K+ Live Channels</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 50K+ VOD Library</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> 4K & FHD Quality</li>
+                <li class="flex items-center gap-2"><svg class="w-4 h-4 text-primaryPurple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Standard Support</li>
+              </ul>
+            </div>
+            <button onclick="openPurchaseModal('6 Months Premium', '£35')" class="w-full py-4 glassmorphism text-white rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-white/10 transition">Buy 6 Months</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive FAQ Accordion -->
+    <section class="py-24 px-4 max-w-3xl mx-auto reveal fade-in">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-extrabold mb-4">Frequently Asked Questions</h2>
+        <p class="text-sm text-neutral-400">Everything you need to know about our IPTV service.</p>
+      </div>
+      <div class="space-y-4" id="faq-accordion">
+        <div class="glassmorphism rounded-2xl overflow-hidden glowing-card">
+          <button class="faq-btn w-full px-6 py-5 text-left flex justify-between items-center font-bold text-sm">
+            What internet speed do I need for 4K streaming?
+            <svg class="w-5 h-5 transform transition-transform duration-300 icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-xs text-neutral-400 leading-relaxed font-light">
+            For smooth, buffer-free Ultra HD 4K streaming, we highly recommend a stable broadband connection with a minimum download speed of 25 Mbps. Ethernet connection is preferred over Wi-Fi.
+          </div>
+        </div>
+        <div class="glassmorphism rounded-2xl overflow-hidden glowing-card">
+          <button class="faq-btn w-full px-6 py-5 text-left flex justify-between items-center font-bold text-sm">
+            Which devices are compatible with StreamElite?
+            <svg class="w-5 h-5 transform transition-transform duration-300 icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-xs text-neutral-400 leading-relaxed font-light">
+            Our service works flawlessly on Amazon Firestick, Android TV boxes (Nvidia Shield), Samsung/LG Smart TVs, Apple TV, iOS, and Windows via apps like IPTV Smarters Pro, TiviMate, and IBO Player.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Premium Footer -->
+  <footer class="bg-[#050505] border-t border-white/5 pt-16 pb-24 px-4 relative z-10 text-xs text-neutral-400">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div class="col-span-1 md:col-span-2">
+        <span class="text-lg font-bold text-white flex items-center gap-2 mb-4">StreamElite <span class="text-primaryPurple">IPTV</span></span>
+        <p class="max-w-sm leading-relaxed font-light">Delivering the most stable, high-bitrate premium IPTV infrastructure globally. Zero buffering, ultimate reliability, and unmatched 4K quality.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-bold uppercase tracking-widest mb-4">Explore</h4>
+        <ul class="space-y-3 font-light">
+          <li><a href="/pricing.html" class="hover:text-primaryPurple transition">Pricing & Plans</a></li>
+          <li><a href="/channels.html" class="hover:text-primaryPurple transition">Channel List</a></li>
+          <li><a href="/tutorial.html" class="hover:text-primaryPurple transition">Setup Guides</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-bold uppercase tracking-widest mb-4">Support</h4>
+        <ul class="space-y-3 font-light">
+          <li><a href="/faq.html" class="hover:text-primaryPurple transition">FAQ</a></li>
+          <li><a href="/contact.html" class="hover:text-primaryPurple transition">Contact Us</a></li>
+          <li><a href="/legal/privacy-policy.html" class="hover:text-primaryPurple transition">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Universal Lead Gen Modal (Preserved & Enhanced) -->
+  <div id="trial-modal" class="fixed inset-0 z-[120] bg-black/95 backdrop-blur-md hidden items-center justify-center p-4 opacity-0 transition-opacity duration-300">
+    <div class="glassmorphism max-w-md w-full rounded-3xl p-8 relative border border-primaryPurple/40 transform scale-95 transition-transform duration-300" id="trial-modal-card">
+      <button onclick="closeTrialModal()" class="absolute top-4 right-4 text-neutral-400 hover:text-white transition">✕</button>
+      <div class="text-center mb-6">
+        <h3 class="text-2xl font-black text-white mb-2" id="trial-modal-title">Request Access</h3>
+        <p class="text-xs text-neutral-400 font-light" id="trial-modal-desc">Configure your device parameter profile instantly.</p>
+      </div>
+      <form id="trial-form" class="space-y-4" onsubmit="handleFormSubmission(event)">
+        <input type="hidden" id="selected-package" value="Free 24h Trial Run">
+        <div>
+          <label class="block text-[10px] font-bold tracking-wider text-neutral-400 uppercase mb-1.5">Full Name</label>
+          <input type="text" id="form-name" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple transition">
+        </div>
+        <div>
+          <label class="block text-[10px] font-bold tracking-wider text-neutral-400 uppercase mb-1.5">WhatsApp Number</label>
+          <input type="tel" id="form-phone" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple transition">
+        </div>
+        <div>
+          <label class="block text-[10px] font-bold tracking-wider text-neutral-400 uppercase mb-1.5">Streaming Device</label>
+          <select id="form-device" class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-xs text-white focus:outline-none focus:border-primaryPurple transition appearance-none">
+            <option value="Firestick">Amazon Firestick / Fire TV</option>
+            <option value="Smart TV">Samsung / LG Smart TV</option>
+            <option value="Android TV">Android TV / Shield</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-glow w-full bg-gradient-to-r from-primaryPurple to-secondaryPurple py-4 rounded-xl text-xs font-bold uppercase tracking-wider text-white transition mt-2">Initialize Setup</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/assets/js/core-engine.js"></script>
+</body>
+</html>

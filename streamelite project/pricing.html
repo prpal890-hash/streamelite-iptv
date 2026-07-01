@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium IPTV Pricing & Plans | StreamElite</title>
+  <meta name="description" content="Choose your premium IPTV subscription. Access 15,000+ live channels and 50,000+ VODs on any device. Get your 24-hour free trial today.">
+  <link rel="canonical" href="https://14nov.xyz/pricing.html">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { darkBg: '#0B0B0B', primaryPurple: '#7C3AED', secondaryPurple: '#A855F7', charcoalCard: '#121212' } } } }
+  </script>
+  <style>
+    body { background-color: #0B0B0B; color: #FFFFFF; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    .glassmorphism { background: rgba(255, 255, 255, 0.02); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.06); }
+    .glowing-card { background: #121212; border: 1px solid rgba(255, 255, 255, 0.05); transition: all 0.4s ease; }
+    .glowing-card:hover { border-color: #7C3AED; transform: translateY(-8px); box-shadow: 0 10px 30px rgba(124, 58, 237, 0.25); }
+    .btn-glow { box-shadow: 0 0 15px rgba(124, 58, 237, 0.4); transition: all 0.3s ease; }
+    .btn-glow:hover { box-shadow: 0 0 25px rgba(124, 58, 237, 0.8); transform: translateY(-2px); }
+    .whatsapp-glow { box-shadow: 0 0 15px rgba(16, 185, 129, 0.4); transition: all 0.3s ease; }
+    .whatsapp-glow:hover { box-shadow: 0 0 25px rgba(16, 185, 129, 0.8); transform: translateY(-2px); }
+    .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="antialiased">
+
+  <!-- Floating Buttons -->
+  <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3 items-end">
+    <a href="https://wa.me/447900577564" target="_blank" class="whatsapp-glow bg-emerald-500 text-white px-5 py-3 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">Live Chat</a>
+    <button onclick="openTrialModal()" class="btn-glow bg-gradient-to-r from-primaryPurple to-secondaryPurple text-white px-6 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">Get Started</button>
+  </div>
+
+  <!-- Header -->
+  <header class="fixed top-0 inset-x-0 z-40 py-4 px-4 bg-darkBg/90 backdrop-blur-md border-b border-white/5">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between">
+      <a href="/" class="text-xl font-bold text-white flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-primaryPurple to-secondaryPurple flex items-center justify-center shadow-lg"><svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
+        StreamElite
+      </a>
+      <div class="hidden lg:flex items-center gap-6 text-xs font-semibold uppercase text-neutral-400">
+        <a href="/" class="hover:text-white transition">Home</a>
+        <a href="/pricing.html" class="text-white">Pricing</a>
+        <a href="/channels.html" class="hover:text-white transition">Channels</a>
+        <a href="/devices.html" class="hover:text-white transition">Devices</a>
+        <a href="/faq.html" class="hover:text-white transition">FAQ</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-32 pb-20">
+    <section class="text-center px-4 max-w-3xl mx-auto mb-16 reveal">
+      <span class="text-primaryPurple text-[10px] font-bold uppercase tracking-widest bg-primaryPurple/10 px-4 py-1.5 rounded-full mb-4 inline-block">Flexible Subscriptions</span>
+      <h1 class="text-4xl sm:text-6xl font-extrabold mb-6">Transparent Pricing. <br>Zero Hidden Fees.</h1>
+      <p class="text-neutral-400 text-base font-light">Select the plan that fits your streaming needs. Every plan includes 4K quality, anti-buffer technology, and full VIP access.</p>
+    </section>
+
+    <section class="px-4 max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8 items-center reveal">
+      
+      <!-- 1 Month -->
+      <div class="p-8 rounded-3xl glowing-card flex flex-col justify-between h-full">
+        <div>
+          <span class="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2">1 Month Access</span>
+          <div class="text-4xl font-black mb-6 flex items-baseline gap-1">£12 <span class="text-xs font-normal text-neutral-500">/mo</span></div>
+          <ul class="space-y-4 text-xs text-neutral-300 mb-8 font-medium">
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-neutral-300">15K+ Live Channels</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-neutral-300">50K+ VOD Library</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-neutral-300">4K & FHD Quality</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-neutral-300">Anti-Buffer Tech</span></li>
+          </ul>
+        </div>
+        <button onclick="openPurchaseModal('1 Month Premium', '£12')" class="w-full py-4 glassmorphism text-white rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-white/10 transition">Buy 1 Month</button>
+      </div>
+
+      <!-- 12 Months Bestseller -->
+      <div class="p-8 rounded-3xl glowing-card flex flex-col justify-between border-2 border-primaryPurple transform lg:scale-105 shadow-2xl relative h-full">
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primaryPurple to-secondaryPurple px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest text-white shadow-lg">Most Popular</div>
+        <div>
+          <span class="block text-[10px] font-bold text-primaryPurple uppercase tracking-widest mb-2 mt-2">12 Months Premium</span>
+          <div class="text-5xl font-black mb-6 flex items-baseline gap-1">£50 <span class="text-xs font-normal text-neutral-400">/yr</span></div>
+          <ul class="space-y-4 text-xs text-white mb-8 font-medium">
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-white">Everything in 1 Month</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-white">Catch-Up TV Included</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-white">Multi-Device Support</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-white">Priority VIP Support</span></li>
+          </ul>
+        </div>
+        <button onclick="openPurchaseModal('12 Months Premium', '£50')" class="btn-glow w-full py-4 bg-gradient-to-r from-primaryPurple to-secondaryPurple text-white rounded-xl text-xs font-bold uppercase tracking-wider transition">Buy 12 Months</button>
+      </div>
+
+      <!-- 6 Months -->
+      <div class="p-8 rounded-3xl glowing-card flex flex-col justify-between h-full">
+        <div>
+          <span class="block text-[10px] font-bold text-neutral-400 uppercase tracking-widest mb-2">6 Months Access</span>
+          <div class="text-4xl font-black mb-6 flex items-baseline gap-1">£35 <span class="text-xs font-normal text-neutral-500">/6mo</span></div>
+          <ul class="space-y-4 text-xs text-neutral-300 mb-8 font-medium">
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-neutral-300">15K+ Live Channels</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-neutral-300">50K+ VOD Library</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-neutral-300">4K & FHD Quality</span></li>
+            <li class="flex items-center gap-2 text-primaryPurple">✔ <span class="text-neutral-300">Standard Support</span></li>
+          </ul>
+        </div>
+        <button onclick="openPurchaseModal('6 Months Premium', '£35')" class="w-full py-4 glassmorphism text-white rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-white/10 transition">Buy 6 Months</button>
+      </div>
+
+    </section>
+  </main>
+  
+  <div id="trial-modal" class="hidden"></div> <!-- Add your modal structure here as provided in index.html -->
+  <script src="/assets/js/core-engine.js"></script>
+</body>
+</html>

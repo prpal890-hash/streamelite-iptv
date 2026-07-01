@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /legal/
+Disallow: /404.html
+
+Sitemap: https://14nov.xyz/sitemap.xml
